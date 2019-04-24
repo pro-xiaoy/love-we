@@ -16,17 +16,24 @@
                 <h1 id="text" contenteditable="true"></h1>
             </div>
             <div id="about">
-                <h2 class="header">WeLove</h2>
-                <h3 class="world"><a href="https://pro-xiaoy.github.io/lover/index.html">Around the World</a></h3>
-                <img id="qrcode" src="./imgs/1555683742.png">
-                <div class="footer">
-                    <p>方阳阳</p>
-                    <p><a href="https://alpha.wallhaven.cc/">wallhaven</a></p>
-                    <p>
-                        Github: <a href="https://github.com/pro-xiaoy">pro-xiaoy</a>
-                        知乎: <a href="https://www.zhihu.com/people/pro-xiaoy/activities">pro-xiaoy</a>
-                    </p>
+
+                <div class="we-body">
+                    <div class="headImg">
+                        <div>
+                            <img src="./imgs/headimg1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./imgs/headimg2.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <canvas id="pinkboard"></canvas>
+                    </div>
+                    <div class="textLove"> 
+                        <p>人世间有百媚千红，唯独你是我情之所钟。</p>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -34,7 +41,7 @@
     <script src="./js//jquery.touch.js"></script>
     <script src="./js//jquery.unveil.js"></script>
     <script src="./js/shake.js"></script>
-
+    <script src="./js/canvas.js"></script>
     <script>
         var $text = $('#text');
         var $container = $('#container');
